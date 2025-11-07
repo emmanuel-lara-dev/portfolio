@@ -35,18 +35,18 @@ export default function Hero() {
 
         <div className="flex gap-6 justify-center">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/emmanuel-lara-dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-primary-400 transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
           >
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/emmanuel-lara-dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-primary-400 transition-colors"
+            className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
           >
             <Linkedin size={24} />
           </a>
