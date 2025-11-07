@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100 transition-colors duration-300;
+  }
+
+  .light body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  .light section {
+    @apply text-gray-900;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-blue-600;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
