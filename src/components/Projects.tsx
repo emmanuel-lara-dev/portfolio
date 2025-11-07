@@ -15,8 +15,8 @@ export default function Projects() {
         "SHAP",
         "Machine Learning",
       ],
-      github: "https://github.com/yourusername/fraud-detection",
-      live: "#",
+      github: "https://github.com/emmanuel-lara-dev/portfolio",
+      live: "https://portfolio-beige-nine-ceavcrwpbb.vercel.app",
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     },
@@ -70,7 +70,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-primary-400 transition-colors"
+                    className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     <Github size={18} />
                     <span className="text-sm">Code</span>
@@ -79,7 +79,7 @@ export default function Projects() {
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-primary-400 transition-colors"
+                    className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     <ExternalLink size={18} />
                     <span className="text-sm">Live Demo</span>
