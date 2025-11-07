@@ -43,16 +43,8 @@ export default function Hero() {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/emmanuel-lara-dev"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:twilightlara2005@gmail.com"
             className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-          >
-            <Linkedin size={24} />
-          </a>
-          <a
-            href="mailto:your.email@example.com"
-            className="text-gray-400 hover:text-primary-400 transition-colors"
           >
             <Mail size={24} />
           </a>
